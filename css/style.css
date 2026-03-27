@@ -422,3 +422,42 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
+
+/* ================ Литвиненко Д.В. ================*/
+.Litvinenko__big-red-text{
+    color: red;
+    font-size: clamp(0.9375rem, 0.84rem + 0.45vw, 1.375rem);
+}
+.Litvinenko__skill-tag {
+    background: #eef3fc;
+    padding: 0.35rem 1rem;
+    border-radius: 40px;
+    font-size: clamp(0.8125rem, 0.78rem + 0.13vw, 0.9375rem);
+    font-weight: 500;
+    color: #1e5a7d;
+    transition: all 0.2s;
+}
+
+.Litvinenko__skill-tag:hover{
+    cursor: pointer;
+    color: black;
+    background: #d4e3f5;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.Litvinenko_rotating{
+    display: inline-block;
+    animation: spin 1s linear infinite paused;
+    transform-origin: center;
+}
+
+.Litvinenko_rotating:hover{
+    animation-play-state: running;
+}
+
+/* Ключевые кадры вращения */
+@keyframes spin{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
