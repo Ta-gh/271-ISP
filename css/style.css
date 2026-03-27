@@ -458,3 +458,126 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
+
+
+
+/* CSS АНИ ДЕМКОВИЧ */
+.demkovich {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #fff487;
+    border-radius: 2rem;
+    box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.2);
+    padding: 2rem 2rem 3rem;
+    transition: all 0.3s;
+    color: #1a2a3f;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.demkovich__title {
+    text-align: center;
+}
+
+.wassup {
+    font-weight: 1000;
+    color: #eb5e28;
+}
+
+.demkovich__title img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 40px;
+}
+
+.demkovich__nickname {
+    color: #cc7400;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.demkovich .about {
+    font-weight: 600;
+    text-align: center;
+}
+
+.demkovich__music {
+    font-weight: bold;
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.demkovich__artist {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+}
+
+.demkovich .about img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 160px;
+}
+
+.demkovich__container {
+    margin-top: 15px;
+}
+
+.demkovich__picture {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.demkovich__content1 img, .demkovich__content2 img {
+    margin-top: 70px;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+
+.demkovich__blue {
+    color: #667eea;
+}
+
+.demkovich__text__figcaption {
+    text-align: center;
+    font-size: clamp(1rem, 0.97rem + 0.13vw, 1.125rem);
+    font-weight: 500;
+    padding: 0.85rem 1rem;
+    background: #fffcf6;
+    color: #eb5e28;
+    letter-spacing: 0.3px;
+    border-top: 1px solid #e9edf2;
+    border-radius: 20px;
+    position: relative;
+}
+
+.demkovich__content1:hover img, .demkovich__content2:hover img {
+    transform: scale(1.05);
+}
+
+.demkovich__gorilla img {
+    display: flex;
+    margin-top: 70px;
+    border-radius: 20px;
+    position: relative;
+    right: -520px;
+}
+
+.demkovich__decor {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
