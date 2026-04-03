@@ -391,6 +391,101 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+
+
+
+/* Lopatnikova */
+.Lopatnikova{
+    max-width: 1280px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 2rem;
+    box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.2);
+    padding: 2rem 2rem 3rem;
+    color: #1a2a3f;
+    margin-bottom: 30px;
+}
+.Lopatnikova__title{
+    margin-bottom: 1rem;
+    transition: all 0.2s;
+}
+.Lopatnikova__title:hover{
+    letter-spacing:2px;
+}
+.cat{
+    display: none;
+    transition: all 0.2s;
+}
+.Lopatnikova__img{
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border-radius: 2rem;
+    transition: all 0.2s;
+}
+
+.Lopatnikova__img:hover{
+    display: none;
+    border: 3px solid #69479846;
+}
+
+.img:hover .cat {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border-radius: 2rem;
+}
+.Lopatnikova__info{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+.Lopatnikova__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Lopatnikova__text p:hover span{
+    color: #667eea;   
+    text-transform: uppercase;
+}
+.Lopatnikova__btn{
+    margin-top: 2rem;
+    border: 0;
+    background: #667eea;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.Lopatnikova__btn:hover{
+    border: #4864dd;
+}
+.Lopatnikova__input{
+    border: 0;
+    margin-right:2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+
+}
+input::placeholder{
+    color: #667eea;
+}
+.lopatnikova__php{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.lopatnikova__php:hover{
+    border: 1px dashed linear-gradient(90deg, #4b7aa1, #9bb8d4);;
+}
 /* ============================================================= */
 
 /* Адаптивность для мобильных устройств */
