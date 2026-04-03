@@ -479,12 +479,9 @@ body {
 input::placeholder{
     color: #667eea;
 }
-.lopatnikova__php{
+.lopatnikova__text-php{
     margin-top: 1rem;
     font-size: 1rem;
-}
-.lopatnikova__php:hover{
-    border: 1px dashed linear-gradient(90deg, #4b7aa1, #9bb8d4);;
 }
 /* ============================================================= */
 
