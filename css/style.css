@@ -581,3 +581,15 @@ body {
     background-clip: text;
     color: transparent;
 }
+
+.grishina_sveta{
+    
+}
+
+
+.grishina__img{
+    width: 20vw;
+    border-radius: 15px;
+    display: flex;
+    padding: 1vw;
+}
