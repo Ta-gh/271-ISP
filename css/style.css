@@ -581,3 +581,44 @@ body {
     background-clip: text;
     color: transparent;
 }
+
+
+.koshkina{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #e09bfc;
+    border-radius: 2rem;
+    /* box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.2); */
+    padding: 2rem 2rem 3rem;
+    /* transition: all 0.3s; */
+    color: #1a2a3f;
+    margin-bottom: 30px;
+    /* position: relative; */
+}
+
+.kosh__container{
+    display: flex;
+    gap: 30px;
+}
+
+.kosh__container img{
+    width: 250px;
+    height: 320px;
+    border-radius: 25px;
+    
+}
+
+.kosh__info h2{
+    text-align: left;
+    
+}
+
+.kosh__info h3{
+    margin: 10px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
