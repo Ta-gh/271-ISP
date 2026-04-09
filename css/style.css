@@ -461,125 +461,110 @@ body {
 
 
 
-/* CSS АНИ ДЕМКОВИЧ */
-.demkovich {
+
+/* ==========Гришина Катя=========== */
+.Grishina__Katua{ 
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #fff487;
+    background: rgba(255, 255, 255, 0.75);
     border-radius: 2rem;
     box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.2);
     padding: 2rem 2rem 3rem;
     transition: all 0.3s;
     color: #1a2a3f;
     margin-bottom: 30px;
-    position: relative;
 }
-
-.demkovich__title {
-    text-align: center;
+.container__KatuaGrishina{ 
+    display: flex;
 }
-
-.wassup {
-    font-weight: 1000;
-    color: #eb5e28;
+.yelow-text{ 
+    color: #e69108;
+    margin-left: 25px;
 }
-
-.demkovich__title img {
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    top: 40px;
+.img__KatuaGrishina{ 
+    background: #ffffffdd;
+    border-radius: 25px;
+    transition: all 0.25s;
 }
-
-.demkovich__nickname {
-    color: #cc7400;
-    text-align: center;
-    font-weight: 800;
-    margin-bottom: 50px;
+.img__KatuaGrishina:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.1);
 }
-
-.demkovich .about {
+.GrishinaKatua-img{ 
+    width: 100px;
+    height: 100px;
+}
+.GrishinaKAtua__imgp{ 
+    display: flex;
+    color: #1a2a3f;
+    font-size: 15px;
+    color: #1e3a5f;
     font-weight: 600;
-    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
-
-.demkovich__music {
-    font-weight: bold;
-    background: linear-gradient(to right, red, blue);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+.vabe-text{ 
+    color: #e69108;
+    margin-left: 25px;
+    font-size: 21px;
+    font-weight: 600;
 }
-
-.demkovich__artist {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 20px;
-    padding: 10px;
-    color: #fff;
+.card {
+    margin-left: 25px;
+    width: 900px;
+    padding-top: 45px;
+    display: flex;
+    background: #ffffffdd;
+    border-radius: 1.75rem;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.25s;
 }
-
-.demkovich .about img {
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    top: 160px;
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.1);
 }
+.GrishinaKAtua {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    object-fit: cover;
 
-.demkovich__container {
-    margin-top: 15px;
 }
-
-.demkovich__picture {
+.h1-GrishinaKAtua{
+    font-size: clamp(2rem, 1.94rem + 0.25vw, 2.25rem);
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    border-left: 5px solid #4b7aa1;
+    padding-left: 1rem;
+    color: #1e3a5f;
+    margin-left: 25px;
+}
+.p-GrishinaKAtua{
+    font-size: 15px;
+    color: #1e3a5f;
+    line-height: 1.5;
+    margin-left: 25px;
+}
+.links {
     display: flex;
     justify-content: center;
-    gap: 250px;
 }
-
-.demkovich__content1 img, .demkovich__content2 img {
-    margin-top: 70px;
-    display: block;
-    object-fit: cover;
-    border-radius: 15px;
-    box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.2);
-    transition: all 0.5s;
-}
-
-.demkovich__blue {
-    color: #667eea;
-}
-
-.demkovich__text__figcaption {
-    text-align: center;
-    font-size: clamp(1rem, 0.97rem + 0.13vw, 1.125rem);
+.links a {
+    text-decoration: none;
+    color:#1e3a5f;
     font-weight: 500;
-    padding: 0.85rem 1rem;
-    background: #fffcf6;
-    color: #eb5e28;
-    letter-spacing: 0.3px;
-    border-top: 1px solid #e9edf2;
-    border-radius: 20px;
-    position: relative;
+    font-size: 20px;
+    padding: 14px 18px;
+    border-radius: 12px;
+    background: rgba(0, 122, 255, 0.05);
+    transition: 0.2s;
 }
-
-.demkovich__content1:hover img, .demkovich__content2:hover img {
-    transform: scale(1.05);
-}
-
-.demkovich__gorilla img {
-    display: flex;
-    margin-top: 70px;
-    border-radius: 20px;
-    position: relative;
-    right: -520px;
-}
-
-.demkovich__decor {
-    display: flex;
-    justify-content: space-between;
-    background: linear-gradient(to right, red, blue);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+.links a:hover {
+    color: #d4e3f5;
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.1);
 }
 
 .grishina_sveta{
