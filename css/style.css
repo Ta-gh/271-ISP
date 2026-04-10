@@ -566,3 +566,59 @@ body {
     transform: translateY(-10px);
     box-shadow: 0 30px 60px rgba(0,0,0,0.1);
 }
+
+/* газизов артем */
+
+.Gazizov__Artem{
+    max-width: 1280px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 2rem;
+    box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.2);
+    padding: 2rem 2rem 3rem;
+    transition: all 0.3s;
+    color: #1a2a3f;
+    margin-bottom: 30px;
+
+    .container__gazizov{
+        /* border: 1px solid #000; */
+        width: 100%;
+        display: flex;
+        gap: 4rem;
+    }
+
+.img__gazizov{
+    width: max-content;
+    background: aliceblue;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+    .gazizov{
+     width: 300px ;
+     height: auto;  
+     border-radius: 2rem 2rem 0 0; 
+    }
+
+    .content__gazizov{
+        background: aliceblue;
+        border-radius: 2rem;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 2fr;
+        grid-template-rows: 10% 1fr;
+        gap: 30px;
+        padding: 20px;
+        
+
+
+        .zagalovok{
+            grid-column: 1/3;
+            text-align: center;
+        }
+
+        .column-1, ul{
+            list-style: none;
+        }
+    }
+}
